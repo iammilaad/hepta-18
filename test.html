@@ -1,0 +1,42 @@
+<html>
+  <head>
+    <style>
+      body {
+        margin: 0;
+      }
+      ul,
+      ol {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+      }
+      ul {
+        display: flex;
+      }
+      ul li {
+        height: 200px;
+        width: 500px;
+      }
+      ul li:nth-child(1) {
+        background: red;
+        flex: 1 0 auto;
+      }
+      ul li:nth-child(2) {
+        background: blue;
+        flex: 1 0 auto;
+      }
+      .container {
+        width: 900px;
+        margin: 0 auto;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <ul>
+        <li></li>
+        <li></li>
+      </ul>
+    </div>
+  </body>
+</html>
